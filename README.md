@@ -1,40 +1,47 @@
 # Watchdog de Certificados TLS/SSL | TAVARDT Brasil
 
-[![TLS Watchdog](https://img.shields.io/badge/Security-TLS%20Watchdog-5b3cf5.svg)](https://tools.tavardt.com/br/)
-[![Regulatory Compliance](https://img.shields.io/badge/Region-BRL-00C853.svg)](https://ag.tavardt.com/br/)
+[![Monitor de Certificados](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/br/analise-cabecalhos-seguranca/)
+[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Brasil-00C853.svg)](https://ag.tavardt.com/br/ciberseguranca/)
 
-Monitoramento automatizado de expiração de certificados SSL/TLS e integridade criptográfica perimetral no Brasil.
+Monitoramento automatizado de expiração de certificados SSL/TLS, integridade de cadeia criptográfica e conformidade com os requisitos de segurança da informação da LGPD no Brasil.
 
-Maintained by the infrastructure resilience and cybersecurity division at [TAVARDT Brasil](https://ag.tavardt.com/br/).
-
----
-
-## 1. Capabilities
-
-* **Expiration Watchdog:** Computes real-time days until SSL/TLS certificate expiry with configurable warning thresholds.
-* **Cipher Suite Inspection:** Detects deprecated TLS versions (TLS 1.0/1.1) and verifies forward secrecy support.
-* **Certificate Authority Validation:** Audits issuing CA identity and chain validity.
-* **Zero External Dependencies:** Built with native Python `ssl` and `socket` modules for seamless integration into CI/CD pipelines, cron jobs, and server health checks.
+Desenvolvido e mantido pela divisão de proteção de infraestruturas da **[TAVARDT Brasil](https://ag.tavardt.com/br/)**.
 
 ---
 
-## 2. Quick Start
+## 1. Capacidades de Monitoramento Contínuo
 
-Execute directly via Python without installing third-party packages:
+Este utilitário de terminal inspeciona em tempo real a validade, cifras e autoridades certificadoras de conexões seguras:
+
+* **Alerta Preventivo de Expiração:** Calcula os dias restantes para o vencimento do certificado com alertas configuráveis.
+* **Auditoria de Cifras e Protocolos:** Identifica o suporte a TLS 1.3 e assegura a revogação de protocolos obsoletos (TLS 1.0 e 1.1).
+* **Validação de Autoridade Emissora (CA):** Inspeciona a entidade emissora da cadeia de confiança e integridade dos SANs.
+* **Zero Dependências Externas:** Construído sobre os módulos nativos ssl e socket do Python para fácil integração com cron e pipelines.
+
+---
+
+## 2. Guia de Execução Rápida
+
+Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
 
 ```bash
-python watchdog.py example.com
+python watchdog.py exemplo.com
 ```
 
 ---
 
-## 3. Online Diagnostic Suite
+## 3. Ferramentas Técnicas Online (Brasil)
 
-For comprehensive vulnerability scanning, DNS verification, and technical audits, visit our localized tools portal:
+Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
 
-* [Online HTTP Security Headers Checker](https://tools.tavardt.com/br/security-headers-check/)
-* [Exposed Secret & Credential Scanner](https://tools.tavardt.com/br/exposed-files-scanner/)
-* [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/br/dmarc-checker/)
-* [Full Diagnostic Portal](https://tools.tavardt.com/br/)
+* [Auditoria de Cabeçalhos de Segurança](https://tools.tavardt.com/br/analise-cabecalhos-seguranca/)
+* [Validador de Consent Mode v2 e LGPD](https://tools.tavardt.com/br/validador-consent-mode-v2-lgpd/)
+* [Verificador DMARC e Segurança de E-mail](https://tools.tavardt.com/br/verificador-dmarc-email/)
+* [Deteção de Arquivos Expostos](https://tools.tavardt.com/br/verificador-arquivos-expostos/)
+* [Portal de Diagnóstico Técnico Brasil](https://tools.tavardt.com/br/)
 
-For professional remediation and cybersecurity advisory, contact [TAVARDT Brasil](https://ag.tavardt.com/br/contact/).
+---
+
+## 4. Consultoria e Hardening Criptográfico
+
+Para hardening criptográfico de servidores, automação de renovação e proteção corporativa no Brasil, contate a **[TAVARDT Brasil](https://ag.tavardt.com/br/contato/)**.
