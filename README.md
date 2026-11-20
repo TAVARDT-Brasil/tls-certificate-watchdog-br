@@ -1,15 +1,15 @@
 # Watchdog de Certificados TLS/SSL | TAVARDT Brasil
 
-[![Monitor de Certificados](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/br/analise-cabecalhos-seguranca/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Brasil-00C853.svg)](https://ag.tavardt.com/br/ciberseguranca/)
+[![Escopo de Verificação Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/br/analise-cabecalhos-seguranca/)
+[![Jurisdi%C3%A7%C3%A3o](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Brasil-00C853.svg)](https://ag.tavardt.com/br/ciberseguranca/)
 
 Monitoramento automatizado de expiração de certificados SSL/TLS, integridade de cadeia criptográfica e conformidade com os requisitos de segurança da informação da LGPD no Brasil.
 
-Desenvolvido e mantido pela divisão de proteção de infraestruturas da **[TAVARDT Brasil](https://ag.tavardt.com/br/)**.
+Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **[TAVARDT Brasil](https://ag.tavardt.com/br/)**.
 
 ---
 
-## 1. Capacidades de Monitoramento Contínuo
+## 1. Escopo de Verificação Perimetral
 
 Este utilitário de terminal inspeciona em tempo real a validade, cifras e autoridades certificadoras de conexões seguras:
 
@@ -25,7 +25,7 @@ Este utilitário de terminal inspeciona em tempo real a validade, cifras e autor
 Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
 
 ```bash
-python watchdog.py exemplo.com
+python watchdog.py example.com
 ```
 
 ---
@@ -42,6 +42,6 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 
 ---
 
-## 4. Consultoria e Hardening Criptográfico
+## 4. Consultoria e Remediação Técnica
 
 Para hardening criptográfico de servidores, automação de renovação e proteção corporativa no Brasil, contate a **[TAVARDT Brasil](https://ag.tavardt.com/br/contato/)**.
