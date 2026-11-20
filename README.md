@@ -3,7 +3,7 @@
 [![Escopo de Verificação Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/br/analise-cabecalhos-seguranca/)
 [![Jurisdi%C3%A7%C3%A3o](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Brasil-00C853.svg)](https://ag.tavardt.com/br/ciberseguranca/)
 
-Monitoramento automatizado de expiração de certificados SSL/TLS, integridade de cadeia criptográfica e conformidade com os requisitos de segurança da informação da LGPD no Brasil.
+Monitoramento automatizado de expiração de certificados SSL/TLS, integridade de cadeia criptográfica e conformidade perimetral no Brasil.
 
 Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **[TAVARDT Brasil](https://ag.tavardt.com/br/)**.
 
@@ -14,9 +14,9 @@ Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraest
 Este utilitário de terminal inspeciona em tempo real a validade, cifras e autoridades certificadoras de conexões seguras:
 
 * **Alerta Preventivo de Expiração:** Calcula os dias restantes para o vencimento do certificado com alertas configuráveis.
-* **Auditoria de Cifras e Protocolos:** Identifica o suporte a TLS 1.3 e assegura a revogação de protocolos obsoletos (TLS 1.0 e 1.1).
+* **Auditoria de Cifras e Protocolos:** Identifica o suporte a TLS 1.3 e assegura a desativação de protocolos obsoletos.
 * **Validação de Autoridade Emissora (CA):** Inspeciona a entidade emissora da cadeia de confiança e integridade dos SANs.
-* **Zero Dependências Externas:** Construído sobre os módulos nativos ssl e socket do Python para fácil integração com cron e pipelines.
+* **Zero Dependências Externas:** Construído exclusivamente com os módulos nativos ssl e socket do Python.
 
 ---
 
@@ -25,7 +25,7 @@ Este utilitário de terminal inspeciona em tempo real a validade, cifras e autor
 Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
 
 ```bash
-python watchdog.py example.com
+python watchdog.py exemplo.com.br
 ```
 
 ---
