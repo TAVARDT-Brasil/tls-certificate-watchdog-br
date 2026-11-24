@@ -3,7 +3,7 @@
 [![Escopo de Verificação Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/br/analise-cabecalhos-seguranca/)
 Monitoramento automatizado de expiração de certificados SSL/TLS, integridade de cadeia criptográfica e conformidade perimetral no Brasil.
 
-Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **TAVARDT Brasil**.
+Desenvolvido e mantido pela divisão de cibersegurança e proteção de infraestruturas da **TAVARDT**.
 
 ***
 
@@ -42,7 +42,7 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 
 ## 4. Consultoria e Remediação Técnica
 
-Para hardening criptográfico de servidores, automação de renovação e proteção corporativa no Brasil, contate a **TAVARDT Brasil**.
+Para hardening criptográfico de servidores, automação de renovação e proteção corporativa no Brasil, contate a **TAVARDT**.
 
 ***
 
