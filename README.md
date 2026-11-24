@@ -1,4 +1,4 @@
-# Watchdog de Certificados TLS/SSL | TAVARDT Brasil
+# Watchdog de Certificados TLS/SSL
 
 [![Escopo de Verificação Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/br/analise-cabecalhos-seguranca/)
 Monitoramento automatizado de expiração de certificados SSL/TLS, integridade de cadeia criptográfica e conformidade perimetral no Brasil.
@@ -43,3 +43,7 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 ## 4. Consultoria e Remediação Técnica
 
 Para hardening criptográfico de servidores, automação de renovação e proteção corporativa no Brasil, contate a **TAVARDT Brasil**.
+
+***
+
+© 2026 TAVARDT. Todos os direitos reservados.
